@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Best Cars</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/about/">About Us</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/contact/">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Contact Content -->
+<div class="container mt-5">
+    <div class="card shadow-lg p-4 rounded-3">
+        <div class="card-body">
+            <h1 class="card-title text-center mb-4">Contact Us</h1>
+            <p class="text-center mb-5">We'd love to hear from you! Here's how you can reach us.</p>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>📍 Address</h4>
+                    <p>123 Dream Car Avenue<br>Auto City, NA 54321</p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h4>📞 Phone</h4>
+                    <p>+1 (800) 123-4567</p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h4>✉️ Email</h4>
+                    <p>info@bestcars.com</p>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <h4>🕒 Working Hours</h4>
+                    <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM<br>Sun: Closed</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <hr class="my-5">
+            <h2 class="text-center mb-4">Send us a message</h2>
+
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Type your message here..."></textarea>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
